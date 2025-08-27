@@ -1,0 +1,47 @@
+header{
+    width: 900px;
+    height: 80px;
+    outline: 1px solid burlywood;
+}
+
+#conteudo{
+    display: flex;
+    width: 900px;
+    height: 800px;
+    background-color: burlywood;
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-radius: 50px;
+    /*border-radius: 50px; */
+}
+footer{
+    width: 900px;
+    height: 150px;
+    background-color: burlywood;
+}
+header, footer, #conteudo{
+    margin-left: auto;
+    margin-right: auto;
+}
+.colunas{
+    width: 45%;
+    height:500px;
+    outine: 1px solid rgb(230, 212, 189);
+}
+#colunas_contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+table tr td{
+    border: 1px solid #e27a7a;
+
+}
+table {
+    width: 100px;
+}
+table tr{
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    width: 100%;
+}
