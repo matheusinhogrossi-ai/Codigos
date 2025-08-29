@@ -1,0 +1,147 @@
+#Conteudo_home_Destaques{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height:100%;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#Colunas_Destaques{
+  width: 80%;
+  outline: 1px solid #504242;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#colunas_butão {
+  width: 20%;
+  font-weight: 100px;
+  padding: 5px;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-left: 180px;
+  display: block;
+  background-color: #df3b3b;
+}
+
+#novidades{
+  margin: 0 0 10px 0;
+  font-size: 40px;
+  margin-left: 10px;
+  padding: 70px;
+}
+
+#rodizio{
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+---------------/*CONTATO*/--------------
+#colunas_contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 100%;
+}
+
+/* quadrado */
+.colunas {
+  width: 45%;
+  min-height: 500px;
+  outline: 1px solid rgb(230, 212, 189);
+  padding: 30px;
+  background-color: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center; 
+  text-align: center;
+}
+
+/* formulario */
+.colunas form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+/* titulos */
+.colunas h2, .colunas h3 {
+  margin-bottom: 20px;
+  color: #5a3e2b;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* campos */
+.colunas label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.colunas input[type="text"],
+.colunas input[type="email"],
+.colunas input[type="tel"],
+.colunas input[type="number"],
+.colunas select {
+  padding: 10px;
+  border: 1px solid #d2b48c;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 15px;
+  width: 100%;
+}
+
+/* endereço */
+.endereco-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* caixas */
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-group label {
+  font-weight: normal;
+  color: #444;
+}
+
+/* botão */
+.colunas button[type="submit"] {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #8b5e3c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.colunas button[type="submit"]:hover {
+  background-color: #a9744f;
+}
