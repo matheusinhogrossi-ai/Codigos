@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrascaria Batel Grill - Rod&iacute;zio de Carnes, Massas, Sushis e Frutos do Mar - Curitiba</title>
+    <link rel="shortcut icon" href="./img]/favicon.png">
+    <link rel="stylesheet" href="./css/estilos.css";
+</head>
+<body>
+    <header>
+      <nav id="nav_esq">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre Nós</a>
+        <a href="Cardapio.html">Cardápio</a>
+        <a href="Preços.html">Preços</a>
+        <a href="Gift Card.html">Gift Card</a>
+    </nav>
+    <nav id="nav_centro">
+        <img src="./img/lg-batel.png" alt="logo-aba">
+    </nav>
+    <nav id="nav_dir">
+        <a href="Faq.html">Faq</a>
+        <a href="Reservas.html">Reservas</a>
+        <a href="Contato.html">Contato</a>
+        <a href="Trabalhe.html">Trabalhe Conosco</a>
+    </nav>
+    </header>
+<div id="conteudo">
+    <h1>CONTATO</h1>
+
+    <div id="colunas_contato">
+      <div class="colunas">
+
+        <!--formulario-->
+        <form action="./form_proc.html">
+          <h2>Agendamento</h2>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" required>
+          <h3>Endereço</h3>
+          <label for="rua">Rua e número:</label>
+          <input type="text" id="rua" name="rua" required>
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" required>
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado">
+            <option>São Paulo</option>
+            <option>Paraná</option>
+            <option>Rio Grande do Sul</option>
+            <option>Santa Catarina</option>
+          </select>
+          <label for="cep">CEP:</label>
+          <input type="number" id="cep" name="cep" placeholder="8 dígitos" required>
+          <h3>Período de preferência</h3>
+          <label><input type="checkbox" name="periodo" value="manha"> Manhã</label>
+          <label><input type="checkbox" name="periodo" value="tarde"> Tarde</label>
+          <label><input type="checkbox" name="periodo" value="noite"> Noite</label>
+          <br><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
